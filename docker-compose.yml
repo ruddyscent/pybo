@@ -1,0 +1,11 @@
+services:
+  django:
+    build: .
+    shm_size: "2gb"
+    volumes:
+      - ./home:/home
+    ports:
+      - "8000:8000"
+    working_dir: /home
+    tty: true
+    stdin_open: true
