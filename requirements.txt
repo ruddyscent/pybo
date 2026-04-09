@@ -1,2 +1,2 @@
 django==4.2.29
-markdown==3.4.1
+markdown==3.8.1
